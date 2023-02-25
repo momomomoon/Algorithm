@@ -1,6 +1,10 @@
-s = input()
-print(s[0])
-print(s[1])
-print(s[2])
-print(s[3])
-print(s[4])
+#include <stdio.h>
+
+int main() {
+    char data[2001] = "";
+    fgets(data, 2000, stdin);
+    printf("%s\n", data);
+    return 0;
+}
+  
+//fgets(변수명, 최대저장크기, stdin(키보드입력)))함수, 공백포함 문자 입력
