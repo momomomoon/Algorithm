@@ -1,4 +1,4 @@
 # CodeUp
 
-Basic 100 (Python -> C)
+Basic 100 (C)
 ----
