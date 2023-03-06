@@ -32,32 +32,3 @@ int main() {
 
     return 0;
 }
-/*
-#include <stdio.h> 
-int main() {
-    int h, w, n, l, d, x, y; !동일
-    //바둑판 크기
-    scanf("%d %d", &h, &w);
-    int place[h][w];
-    //막대기 수량
-    scanf("%d", &n);
-    //막대기 스펙
-    int index[l][d];
-    int line[x][y];
-    for(int i=0; i<n; i++){
-        scanf("%d %d %d %d", &l, &d, &x, &y);
-    }
-    //바둑판 출력
-    for(int i=1; i<=h; i++){
-        for(int j=1; j<=w; j++){
-            printf("%d ", place[h][w]);
-        }
-        puts("");
-    }
-
-
-    return 0;
-}
-
-
-*/
